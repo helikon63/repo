@@ -2,8 +2,6 @@ const express = require("express");
 const path = require("path");
 const os = require("os");
 const fs = require("fs");
-const id3 = require("node-id3");
-const mm = require('music-metadata');
 var AWS = require('aws-sdk');
 var s3=new AWS.S3();
 var num;
