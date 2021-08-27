@@ -14,10 +14,7 @@ var metadata;
 var songs = require('./songs1.js');
 var len = songs.length;
 var key;
-var dot = require("dotenv");
-dot.config();
-process.env.AWS_SECRET_KEYID= "AKIAREPPFBYXNFBQWMHY"
-process.env.AWS_SECRET_KEY="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"
+
 
 /*AWS.config.update({
     accessKeyId: process.env.AWS_SECRET_KEYID,
